@@ -1,0 +1,29 @@
+<div class="dashboard">
+    <dx-responsive-box>
+        <dxi-row [ratio]="1"></dxi-row>
+        <dxi-row [ratio]="1"></dxi-row>
+        <dxi-row [ratio]="3"></dxi-row>
+        <dxi-col [ratio]="1"></dxi-col>
+
+    
+<dxi-item class="box-row">
+
+    <dxi-location [row]="0" [col]="0"></dxi-location>
+    <dx-responsive-box singleColumnScreen="xs sm">
+        <dxi-row [ratio]="1"></dxi-row>
+        <dxi-col [ratio]="1"></dxi-col>
+        <dxi-col [ratio]="1"></dxi-col>
+        <dxi-col [ratio]="1"></dxi-col>
+        <dxi-col [ratio]="1"></dxi-col>
+        <dxi-col [baseSize]="30" [ratio]="0.3" [shrink]="2"></dxi-col>
+
+    <dxi-item class="box-item">
+        <dxi-location [row]="0" [col]="0"></dxi-location>
+
+    <dx-drop-down-box>
+        label="Empresa"
+        labelMode="floating"
+    </dx-drop-down-box>
+
+</dxi-item>
+</div>
